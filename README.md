@@ -11,7 +11,7 @@ Final project repository to maintain and hold code/information amongst all four 
 
 
 
-## Description of their source of data
+## Description of source for data
 
 
 
