@@ -18,6 +18,6 @@ We are sourcing our data related to the traffic fatalities directly National Hig
 
 ## Desired questions to answer with the data: 
 
-- Can we verify that the variables offered by the NHTSA (speeding, seatbelt usage, DUI/DWIs) significantly explain the relatiosnhip between the rise of traffic fatalities?
+- Can we verify that the variables offered by the NHTSA (speeding, seatbelt usage, DUI/DWIs) significantly explain the relationship between the rise of traffic fatalities?
 - Does our added variable (average U.S. Price of Gasoline in dollars per gallon) contribute significantly to explain the rise of traffic fatalities?
 - What other variables can we add to tell us why traffic fatalities rose during the pandemic?
