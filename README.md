@@ -13,7 +13,8 @@ Attemp to define a relationship between gas prices and car crash fatalities usin
 CVS and XLS file from the National Highway Traffic Safety Administration and the Energy Information Administration.
 
 
-
-
 ## Desired questions to answer with the data: 
 What relationship is there between gas prices and the occurance of fatalities?
+
+## Communication: 
+Communication primarily occurs between Slack and Zoom.
