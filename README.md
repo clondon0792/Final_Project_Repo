@@ -15,5 +15,5 @@ CVS and XLS file from the National Highway Traffic Safety Administration and the
 
 
 
-## Desired questions to answer with the data: W
+## Desired questions to answer with the data: 
 What relationship is there between gas prices and the occurance of fatalities?
