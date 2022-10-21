@@ -6,7 +6,7 @@ Relationship between gas prices and car crash fatalities
 
 
 ## Reason for selecting topic: 
-###### During the pandemic oil and gas was at an all time low. At the same time, fatalities were higher than what is considered normal.
+###### During the pandemic oil and gas was at an all time low. At the same time, fatalities were higher than what is considered normal. The group finds this to be an intriguing topic to further analyze.
 
 
 ## Description for source of data: 
