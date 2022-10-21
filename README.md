@@ -4,7 +4,7 @@ Final project repository to maintain and hold code/information amongst all four 
 # Rubric Necessities:
 
 ## Selected Topic: 
-Elements that affect crash fatalities with a focus on gas prices
+Relationship between gas prices and car crash fatalities
 
 
 ## Reason for selecting topic: 
