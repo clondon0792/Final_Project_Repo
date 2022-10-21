@@ -1,8 +1,6 @@
 # Final_Project_Repo
 Final project repository to maintain and hold code/information amongst all four collaborators 
 
-# Rubric Necessities:
-
 ## Selected Topic: 
 Relationship between gas prices and car crash fatalities
 
