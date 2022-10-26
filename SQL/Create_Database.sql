@@ -1,6 +1,6 @@
 -- SQL Queries to create the database
 CREATE TABLE Gas (
-    month CHAR(3),
+    month INT,
     year INT,
     price DECIMAL NOT NULL,
     CONSTRAINT gas_pk PRIMARY KEY (month, year)
