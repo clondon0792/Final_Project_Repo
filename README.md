@@ -51,7 +51,7 @@ independent variables:
 
 ## Technologies Used
 ## Data Cleaning and Analysis
-We prepared the data using Excel by merging datasets. Exploratory and further analysis will be completed in R.
+We will preprocess the data using Excel. Exploratory and further analysis will be completed in R.
 
 ## Database Storage
 Tentatively, we will be using PostgreSQL for database storage.
