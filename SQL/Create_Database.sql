@@ -38,8 +38,15 @@ CREATE TABLE Vehicle (
     case_num INT,
     vehicle_num INT,
     fatality BOOLEAN NOT NULL,
-    restraint BOOLEAN NOT NULL,
     alcohol BOOLEAN NOT NULL,
     CONSTRAINT Vehicle_Incident_fk FOREIGN KEY(case_num) REFERENCES Incident(case_num),
     CONSTRAINT Vehicle_pk PRIMARY KEY (case_num, vehicle_num)
+);
+
+CREATE TABLE Restraint (
+    violation_id INT,
+    case_num INT,
+    vehicle_num INT,
+    restraint BOOLEAN,
+    CONSTRAINT Restraint_Vehicle_fk FOREIGN KEY(case_num, vehicle_num) REFERENCES Vehicle(case_num, vehicle_num)
 );
