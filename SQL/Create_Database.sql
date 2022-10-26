@@ -24,14 +24,14 @@ CREATE TABLE Light(
 CREATE TABLE Incident (
     case_num INT PRIMARY KEY,
     region_num INT,
-    month CHAR(3) NOT NULL,
+    month INT NOT NULL,
     year INT NOT NULL,
     day VARCHAR(10) NOT NULL,
     weather_id INT,
     light_level INT,
-    CONSTRAINT Incident-Region_fk FOREIGN KEY(region_num) REFERENCES Region (region_num),
-    CONSTRAINT Incident-Weather_fk FOREIGN KEY(weather_id) REFERENCES Weather (weather_id),
-    CONSTRAINT Incident-Light_fk FOREIGN KEY(light_level) REFERENCES Light (light_level)
+    CONSTRAINT Incident_Region_fk FOREIGN KEY(region_num) REFERENCES Region (region_num),
+    CONSTRAINT Incident_Weather_fk FOREIGN KEY(weather_id) REFERENCES Weather (weather_id),
+    CONSTRAINT Incident_Light_fk FOREIGN KEY(light_level) REFERENCES Light (light_level)
 );
 
 CREATE TABLE Vehicle (
@@ -40,6 +40,6 @@ CREATE TABLE Vehicle (
     fatality BOOLEAN NOT NULL,
     restraint BOOLEAN NOT NULL,
     alcohol BOOLEAN NOT NULL,
-    CONSTRAINT Vehicle-Incident_fk FOREIGN KEY(case_num) REFERENCES Incident(case_num),
+    CONSTRAINT Vehicle_Incident_fk FOREIGN KEY(case_num) REFERENCES Incident(case_num),
     CONSTRAINT Vehicle_pk PRIMARY KEY (case_num, vehicle_num)
 );
