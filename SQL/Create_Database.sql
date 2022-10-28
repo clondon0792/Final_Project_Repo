@@ -1,5 +1,7 @@
 -- SQL Queries to create the database
--- Because of some issue with the datatype with importing, numerical data has to be stored as strings for now
+-- Because of some issue with the datatype with importing, numerical data has to be stored as strings for now. 
+-- Additionally, these strings do not compare properly for foreign keys, so those have been disabled for now
+
 CREATE TABLE Gas (
     month VARCHAR(2),
     year CHAR(4),

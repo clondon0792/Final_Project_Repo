@@ -1,4 +1,6 @@
 --Base SQL Insert statements for each table
+--Replace {column_name} with corresponding values
+
 INSERT INTO Gas VALUES 
     ({month}, {year}, {price});
 
@@ -15,4 +17,7 @@ INSERT INTO Incident VALUES
     ({case_num}, {region_num}, {month}, {year}, {day}, {weather_id}, {light_level});
 
 INSERT INTO Vehicle VALUES
-    ({case_num}, {vehicle_num}, {fatality}, {restraint}, {alcohol});
+    ({case_num}, {vehicle_num}, {fatality}, {alcohol});
+
+INSERT INTO Restraint VALUES
+    ({violation_id}, {case_num}, {vehicle_num}, {restraint});
