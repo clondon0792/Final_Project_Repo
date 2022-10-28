@@ -57,7 +57,7 @@ Our group will meet during our regular Zoom classes. We will communicate via our
 We will preprocess the data using Excel. Exploratory and further analysis will be completed in R.
 
 ### Database Storage
-Tentatively, we will be using PostgreSQL for database storage.
+Tentatively, we will be using Google Cloud and PostgreSQL for storage.
 
 ### Machine Learning
 R is the machine learning tool we will be using. Training and testing setup will use Logistic Regression.
