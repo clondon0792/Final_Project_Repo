@@ -27,6 +27,8 @@ CREATE TABLE Light(
 CREATE TABLE Incident (
     case_num VARCHAR(16) PRIMARY KEY,
     region_num CHAR(1),
+    rural_urban CHAR(1),
+    rural_urban_desc VARCHAR(25),
     month VARCHAR(2) NOT NULL,
     year CHAR(4) NOT NULL,
     day VARCHAR(10) NOT NULL,
@@ -46,11 +48,12 @@ CREATE TABLE Vehicle (
     CONSTRAINT Vehicle_pk PRIMARY KEY (case_num, vehicle_num)
 );
 
-CREATE TABLE Restraint (
+CREATE TABLE Violation (
     violation_id VARCHAR(16),
     case_num VARCHAR(16),
     vehicle_num VARCHAR(2),
-    restraint BOOLEAN,
+    violation_code VARCHAR(3),
+    violation_desc VARCHAR(50),
     CONSTRAINT Restraint_pk PRIMARY KEY(violation_id)
     --CONSTRAINT Restraint_Vehicle_fk FOREIGN KEY(case_num, vehicle_num) REFERENCES Vehicle(case_num, vehicle_num)
 );
