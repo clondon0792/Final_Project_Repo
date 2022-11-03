@@ -53,7 +53,7 @@ CREATE TABLE Violation (
     case_num VARCHAR(16),
     vehicle_num VARCHAR(2),
     violation_code VARCHAR(3),
-    violation_desc VARCHAR(50),
+    violation_desc VARCHAR(120),
     CONSTRAINT Restraint_pk PRIMARY KEY(violation_id)
     --CONSTRAINT Restraint_Vehicle_fk FOREIGN KEY(case_num, vehicle_num) REFERENCES Vehicle(case_num, vehicle_num)
 );
