@@ -39,7 +39,7 @@ Our model will be a logistic regression to predict the relationship between the 
 Dependent Variable: 
 - Probability that a traffic incident resulted in a fatality
 
-independent variables:
+Independent variables:
 - U.S. Average price of gasoline (dollars per gallon)
 -	Failure to require restraint use by self or passengers (0 or 1)
 -	Whether or not there was impaired driving due to the use of alcohol, drugs, or prescription medication (0 or 1)
