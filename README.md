@@ -78,6 +78,4 @@ Our machine learning model is a logarithmic regression to estimate the relations
 Ultimately, we want to see if gas prices give any explanatory value in our model. We can also measure the probability that each variable may result in a fatal car accident given the presence of a certain violation and/or circumstance.
 
 ### Dashboard
-For the dashboard, we will be using Tableau to present our findings.
-
-
+For the dashboard, we will be using Tableau to present our findings. In order to create the final dashboard, we will be creating bar and bubble charts. For interactive elements, our charts will have various filters for the user to utilize. The data points will also contain mouse-over descriptor boxes that will present more information for the user to review.
