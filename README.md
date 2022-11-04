@@ -62,9 +62,17 @@ Tentatively, we will be using Google Cloud and PostgreSQL for storage.
 ### Machine Learning
 R is the machine learning tool we will be using. Training and testing setup will use Logistic Regression.
 
-#### Data exploration phase 
+#### Data Exploration Phase 
+
 While pondering the viability of our chosen topic, the group worked together using data bases such as INSERT_GOOGLE_DATA_SITE_HERE and Statistica to find look for legitimate sources. We knew theoretically that we needed data regarding the price of gas and traffic accidents that ended in fatalities, as well as the variables mentioned in the original National Highway Traffic Safety Administration (NHTSA) press release (violations regarding seat belt usage, DUI/DWI, and excessive speeding. We ultimately sourced our data directly from the NHTSA and the U.S. Energy Information Administration (EIA).
+
 The XLS file provided by the EIA was simple and straightforward, while the zip file of CSV files had our data scattered about across different sheets. Dissecting the files together, we managed to find the variables we looked work with together and highlighted which columns of data we want to merge later in the project.
+
+#### Data analysis
+
+Our machine learning model is a logarithmic regression to estimate the relationship between our chosen variables (month, day of the week, gas price, light level, weather condition, rural/urban, age of driver, alcohol violation, seat belt violation, speeding violation, and whether an accident resulted in a fatality). Using the logarithmic regression, R can generate summary statistics that will highlight which of our variables were the most significant.
+
+Ultimately, we want to see if gas prices give any explanatory value in our model. We can also measure the probability that each variable may result in a fatal car accident given the presence of a certain violation and/or circumstance.
 
 ### Dashboard
 For the dashboard, we will be using Tableau to present our findings.
