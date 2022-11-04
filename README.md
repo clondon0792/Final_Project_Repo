@@ -57,10 +57,10 @@ Independent variables:
 Our group will meet during our regular Zoom classes. We will communicate via our private Slack channel.
 
 ### Data Cleaning and Analysis
-We will preprocess the data using Excel. Exploratory and further analysis will be completed in R.
+We have preprocessed the data using Excel. Exploratory and further analysis will be completed in R.
 
 ### Database Storage
-Tentatively, we will be using Google Cloud and PostgreSQL for storage.
+We are using Google Cloud SQL and PostgreSQL for Database Storage.
 
 ### Machine Learning
 R is the machine learning tool we will be using. Training and testing setup will use Logistic Regression.
