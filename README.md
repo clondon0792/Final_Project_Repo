@@ -1,6 +1,9 @@
 # Final_Project_Repo
 Final project repository to maintain and hold code/information amongst all four collaborators 
 
+## Google slides
+[Group 9 Google Slides](https://docs.google.com/presentation/d/1z85IFOMbi_5oYAHke_qazw_QyQq-UAIZADgRrmkzRlQ/edit#slide=id.p)
+
 ## Selected Topic 
 The Rise of Traffic Fatalities During the Pandemic and its Relation to the Price of Gas
 
@@ -76,3 +79,5 @@ Ultimately, we want to see if gas prices give any explanatory value in our model
 
 ### Dashboard
 For the dashboard, we will be using Tableau to present our findings.
+
+
