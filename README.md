@@ -64,3 +64,6 @@ R is the machine learning tool we will be using. Training and testing setup will
 
 ### Dashboard
 For the dashboard, we will be using Tableau to present our findings.
+
+### Google slides
+[Group 9 Google Slides](https://docs.google.com/presentation/d/1z85IFOMbi_5oYAHke_qazw_QyQq-UAIZADgRrmkzRlQ/edit#slide=id.p)
