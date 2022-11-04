@@ -65,7 +65,7 @@ We are using Google Cloud SQL and PostgreSQL for Database Storage.
 ### Machine Learning
 R is the machine learning tool we will be using. Training and testing setup will use Logistic Regression.
 
-####Logistic Regression & Training/Testing
+#### Logistic Regression & Training/Testing
 
 We are choosing to analyze the data using a binomial logistics regression due to the binary nature of our dependent variable (an accident either resulted in a fatality or it did not). With our many independent variables (many of which include categorical classes) LR can easily extend to a multinomial regression and generate a probabilistic view of class predictions.
 
