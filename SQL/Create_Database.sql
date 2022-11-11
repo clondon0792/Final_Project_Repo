@@ -55,3 +55,11 @@ CREATE TABLE Violation (
     CONSTRAINT Restraint_pk PRIMARY KEY(violation_id),
     CONSTRAINT Restraint_Vehicle_fk FOREIGN KEY(case_num, vehicle_num) REFERENCES Vehicle(case_num, vehicle_num)
 );
+
+CREATE TABLE Driver (
+    case_num BIGINT,
+    vehicle_num INT,
+    age INT,
+    CONSTRAINT Driver_pk PRIMARY KEY (case_num, vehicle_num),
+    CONSTRAINT Driver_Vehicle_fk FOREIGN KEY(case_num, vehicle_num) REFERENCES Vehicle(case_num, vehicle_num)
+);
