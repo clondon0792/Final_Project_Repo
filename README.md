@@ -53,9 +53,6 @@ Independent variables:
 
 ## Technologies Used
 
-### Communication Protocols 
-Our group will meet during our regular Zoom classes. We will communicate via our private Slack channel.
-
 ### Data Cleaning and Analysis
 We have preprocessed the data using Excel. Exploratory and further analysis will be completed in R.
 
