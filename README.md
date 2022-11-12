@@ -73,6 +73,7 @@ Like other types of regression models, LR is prone to overfitting. Thankfully, o
 
 We randomly seeded the data to train a model with 75% of the data and make predictions with 25% of the data.
 
+![pic2](https://github.com/clondon0792/Final_Project_Repo/blob/main/MachineLearningModel/week3_traintest_summstat.JPG?raw=true)
 
 #### Data Exploration Phase 
 
