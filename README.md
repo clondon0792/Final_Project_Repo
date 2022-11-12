@@ -83,6 +83,6 @@ Our machine learning model is a logarithmic regression to estimate the relations
 Ultimately, we want to see if gas prices give any explanatory value in our model. We can also measure the probability that each variable may result in a fatal car accident given the presence of a certain violation and/or circumstance.
 
 ### Dashboard
-For the dashboard, we will be using Tableau to present our findings.
+For the dashboard, we used Tableau to present the data and our results from the machine learning task. The dashboard can be found [here](https://public.tableau.com/views/DrivingViolationsandGasPricesduringtheCOVID19Pandemic2020/GasPricesandDrivingViolations?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 In Tableau, we will be creating interactive bar and bubble charts, as well as pie charts. These charts will present data regarding driving violations such as alcohol use, speeding, failure to use a seatbelt, and fatalities. They will also include gas price data, to aid in determining whether gas prices had an effect on driving violations and fatalities for the year of 2020. The charts will contain filters, as well as mouse-over descriptor boxes that will showcase detailed information for the user to review. Our Tableau Dashboard will also contain a region-density map regarding which regions in the United States had more reported violations and fatalities compared to others.
