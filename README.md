@@ -68,7 +68,11 @@ We are choosing to analyze the data using a binomial logistics regression due to
 
 Like other types of regression models, LR is prone to overfitting. Thankfully, our number of independent variables are far outnumbered by our obervations. We also intend to reveal the explanatory power of our final regression model by comparing the captured explained variation to the model's total variation.
 
-We intend to eventually create a set of k-means training and testing models to verify the accuracy of our model.
+![pic1](https://github.com/clondon0792/Final_Project_Repo/blob/main/MachineLearningModel/week3_mlm_summstats.JPG?raw=true)
+
+
+We randomly seeded the data to train a model with 75% of the data and make predictions with 25% of the data.
+
 
 #### Data Exploration Phase 
 
