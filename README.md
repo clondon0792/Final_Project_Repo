@@ -79,7 +79,7 @@ We randomly seeded the data to train a model with 75% of the data and make predi
 
 While pondering the viability of our chosen topic, the group worked together using data bases such as Google Cloud SQL - Postgres and Statistica to find look for legitimate sources. We knew theoretically that we needed data regarding the price of gas and traffic accidents that ended in fatalities, as well as the variables mentioned in the original National Highway Traffic Safety Administration (NHTSA) press release (violations regarding seat belt usage, DUI/DWI, and excessive speeding. We ultimately sourced our data directly from the NHTSA and the U.S. Energy Information Administration (EIA).
 
-The XLS file provided by the EIA was simple and straightforward, while the zip file of CSV files had our data scattered about across different sheets. Dissecting the files together, we managed to find the variables and highlighted which columns of data we want to merge later in the project.
+The XLS file provided by the EIA was simple and straightforward, while the zip file of CSV files had our data scattered about across different sheets. Dissecting the files together, we managed to find the variables and highlighted which columns of data we want to merge later in the project. These variables were then copied into their own csv files and imported to our Google Cloud SQL database. From this database, we were able to join our data to form differring levels of analysis: The incident level, the vehicle level, the violation level, and the driver level. The results of these SQL queries were then converted into respective Pandas DataFrames and eventually converted to a csv to integrate into our analyses.
 
 #### Data analysis
 
