@@ -98,6 +98,8 @@ We found justification (albeit the opposite relationship that we would expect) f
 
 
 ### Dashboard
+![Dashboard](https://user-images.githubusercontent.com/106129195/202288455-bfda5211-4d00-4730-a0ad-01da0a15ef15.png)
+
 For the dashboard, we used Tableau to present the data and our results from the machine learning task. The dashboard can be found [here](https://public.tableau.com/app/profile/nzahbihi/viz/DrivingViolationsandGasPricesduringtheCOVID19Pandemic2020/DrivingViolationsandGasPricesduringtheCOVID19Pandemic2020).
 
-In Tableau, we will be creating interactive bar and bubble charts. These charts will present data regarding driving violations such as alcohol use, speeding, failure to use a seatbelt, and fatalities. They will also include gas price data, as another variable we are interested in reviewing to see if it trends with the number of violations per month for 2020. The charts will contain filters, as well as mouse-over descriptor boxes that will showcase detailed information for the user to review.
+In Tableau, we created interactive bar and bubble charts. These charts present data regarding driving violations such as alcohol use, speeding, failure to use a seatbelt, and violations resulting in death. They also include gas price data, as another variable we are interested in reviewing to see if it trends with the number of violations per month for 2020. The Gas Price chart contains a filter to filter the data by year. All the charts have mouse-over descriptor boxes that showcase detailed information for the user to review. We have also included the results of our Machine Learning task.
