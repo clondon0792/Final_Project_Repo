@@ -85,7 +85,6 @@ The XLS file provided by the EIA was simple and straightforward, while the zip f
 
 Our machine learning model is a logarithmic regression to estimate the relationship between our chosen variables (month, day of the week, gas price, light level, weather condition, rural/urban, age of driver, alcohol violation, seat belt violation, speeding violation, and whether an accident resulted in a fatality). Using the logarithmic regression, R can generate summary statistics that will highlight which of our variables were the most significant.
 
-Ultimately, we want to see if gas prices give any explanatory value in our model. We can also measure the probability that each variable may result in a fatal car accident given the presence of a certain violation and/or circumstance.
 
 | Variable | Variable type | Relationship | Significance | Interpretation |
 |----------|---------------|--------------|--------------|----------------|
@@ -94,6 +93,8 @@ Speeding Violations |0 or 1|-0.767|Moderately|p=0.0317|A speeding violation is m
 |Seatbelt Violations|0 or 1|0.164|None |p=0.7469|Seatbelt violations are a positive but POOR predictor of fatalities.|
 |Light|Levels ranging from lightest to darkest|Varies, generally positive|Varies, generally significant|The lower the light outside, the higher the likelihood of an accident becoming fatal.|
 |Gas Price|Continuous|-1.109|Extremely|p<0.00001|The higher the price of gas, the lower the likelihood of an accident being fatal.|
+
+We found justification (albeit the opposite relationship that we would expect) for speeding and DUIs as explanatory variables for traffic fatalities, but we did not see sufficient evidence to include the seatbelt violations, despite the rise of seatbelt violations during the pandemic being notable. We found that gas price was a significant, positively correlated explanatory variable. We alsp found that light levels are an easily interpretable and significant additional explanatory variable.
 
 
 ### Dashboard
