@@ -92,7 +92,7 @@ Speeding Violations |0 or 1|-0.767|Moderately, p=0.0317|A speeding violation is 
 |DUI/DWI Violation|0 or 1|-0.586|Moderately, p=0.0383|A DUI/DWI violation is moderate predictor of a fatality NOT occuring.|
 |Seatbelt Violations|0 or 1|0.164|None, p=0.7469|Seatbelt violations are a positive but POOR predictor of fatalities.|
 |Light|Levels ranging from lightest to darkest|Varies, generally positive|Varies, generally significant|The lower the light outside, the higher the likelihood of an accident becoming fatal.|
-|Gas Price|Continuous|-1.109|Extremely|p<0.00001|The higher the price of gas, the lower the likelihood of an accident being fatal.|
+|Gas Price|Continuous|-1.109|Extremely, p<0.00001|The higher the price of gas, the lower the likelihood of an accident being fatal.|
 
 We found justification (albeit the opposite relationship that we would expect) for speeding and DUIs as explanatory variables for traffic fatalities, but we did not see sufficient evidence to include the seatbelt violations, despite the rise of seatbelt violations during the pandemic being notable. We found that gas price was a significant, positively correlated explanatory variable. We alsp found that light levels are an easily interpretable and significant additional explanatory variable.
 
