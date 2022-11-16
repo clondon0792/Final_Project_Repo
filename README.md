@@ -88,9 +88,9 @@ Our machine learning model is a logarithmic regression to estimate the relations
 
 | Variable | Variable type | Relationship | Significance | Interpretation |
 |----------|---------------|--------------|--------------|----------------|
-Speeding Violations |0 or 1|-0.767|Moderately|p=0.0317|A speeding violation is moderate predictor of a fatality NOT occuring.|
-|DUI/DWI Violation|0 or 1|-0.586|Moderately|p=0.0383|A DUI/DWI violation is moderate predictor of a fatality NOT occuring.|
-|Seatbelt Violations|0 or 1|0.164|None |p=0.7469|Seatbelt violations are a positive but POOR predictor of fatalities.|
+Speeding Violations |0 or 1|-0.767|Moderately, p=0.0317|A speeding violation is moderate predictor of a fatality NOT occuring.|
+|DUI/DWI Violation|0 or 1|-0.586|Moderately, p=0.0383|A DUI/DWI violation is moderate predictor of a fatality NOT occuring.|
+|Seatbelt Violations|0 or 1|0.164|None, p=0.7469|Seatbelt violations are a positive but POOR predictor of fatalities.|
 |Light|Levels ranging from lightest to darkest|Varies, generally positive|Varies, generally significant|The lower the light outside, the higher the likelihood of an accident becoming fatal.|
 |Gas Price|Continuous|-1.109|Extremely|p<0.00001|The higher the price of gas, the lower the likelihood of an accident being fatal.|
 
